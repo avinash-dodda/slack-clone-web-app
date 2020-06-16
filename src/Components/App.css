@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topBar {
+    background: #007bff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#007bff, #5B86E5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#007bff, #5B86E5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.leftAppBar {
+    float: left!important;
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 100%  !important; 
+}
+
+.leftRail {
+    text-align: center;
+    overflow-y: auto !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 100%  !important;
+}
+
+.leftRail::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.leftRail {
+    -ms-overflow-style: none;
+}
+
+.avatar-img{
+    height: 5.75rem;
+    min-height: 5.75rem;
+    width: 5.75rem;
+    min-width: 5.75rem;
+    border-radius: 50% !important;
+}
+
+/* .circle {
+    height: 3rem;
+    min-height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+} */
+
+.btn-teamRail{
+    border-radius: 0px !important;
+    border: 0px !important;
+    color: var(--dark) !important;
+    background: white!important;
+    outline: none !important;
+    text-align: left !important;
+}
+
+.btn-teamRail:active,
+.btn-teamRail.active{
+    color: var(--dark) !important;
+    background: #c2dbff!important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-teamRail:focus,
+.btn-teamRail.focus{
+    outline: none !important;
+    box-shadow: none !important;
+    color: var(--dark) !important;
+    background: #c2dbff!important;    
+}
+
+.btn-teamRail:hover,
+.btn-teamRail.hover{
+    outline: none !important;
+    box-shadow: none !important;
+    color: var(--dark) !important;
+    background: #d3e4fd!important;
+}
+
+.trimText{
+    white-space: nowrap !important;
+    overflow: hidden !important; 
+    text-overflow: ellipsis !important;
+}
+
+.messages {
+    height: 75vh;
+    overflow-y: scroll;
+  }
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+ }
+
+
+
+
+
+
+
+
+  
+
+ 
