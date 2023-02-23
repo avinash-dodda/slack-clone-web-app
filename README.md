@@ -1,7 +1,7 @@
 
-# Web App Building 
+# Web App Building - Slack Clone 
 
-This project is to build a chat app like Slack (Slack clone)
+This project is to build a chat app like Slack
 
 * **Front end:** React, Redux
 
